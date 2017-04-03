@@ -2,7 +2,6 @@
 import logging
 
 from cert_core import helpers, model
-from cert_core import BlockcertVersion
 
 
 def certificate_uid_to_filename(uid):
