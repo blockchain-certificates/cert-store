@@ -1,3 +1,5 @@
+__version__ = '2.0b2'
+
 import logging.config
 import os
 
