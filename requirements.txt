@@ -1,7 +1,7 @@
-cert-schema>=2.0b18
+cert-schema==2.0b18
 configargparse==0.10.0
 connexion>=1.0.109
 Flask-PyMongo>=0.4.1
 simplekv>=0.10.0
 swagger-parser>=0.1.10
-tox>=2.3.1
+tox>=2.7.0
