@@ -1,8 +1,8 @@
 """Retrieves certificates from mongodb."""
 import logging
 
-from cert_core import helpers, model
-from cert_core import URN_UUID_PREFIX
+from cert_schema import helpers, model
+from cert_schema import URN_UUID_PREFIX
 
 
 def certificate_uid_to_filename(uid):

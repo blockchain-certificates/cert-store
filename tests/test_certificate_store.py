@@ -13,7 +13,8 @@ class TestModel(unittest.TestCase):
         cert_store = CertificateStore(kv_store)
         cert = cert_store.get_certificate('609c2989-275f-4f4c-ab02-b245cfb09017')
         self.assertIsNotNone(cert)
-        self.assertEquals('Game of thrones issuer', cert.organization)
+        self.assertEquals('1AAGG6jirbu9XwikFpkHokbbiYpjVtFe1G', cert.recipient_public_key)
+        self.assertEquals('8623beadbc7877a9e20fb7f83eda6c1a1fc350171f0714ff6c6c4054018eb54d', cert.txid)
 
 
 if __name__ == '__main__':
